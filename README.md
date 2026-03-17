@@ -4,6 +4,22 @@
 
 Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web de e-commerce focada na venda de sneakers, simulando funcionalidades comuns de lojas virtuais (ex: listagem de produtos, carrinho de compras, checkout, cadastro de dados e integração com APIs). Como diferencial, a aplicação busca oferecer uma interface moderna e responsiva, com foco em experiência do usuário e interatividade no lado cliente.
 
+## 📚 Documentação do Projeto
+
+Em andamento.
+
+## 🎨 Design
+
+Em andamento.
+
+## 🌐 Site em Produção - GitHub Pages
+
+Em andamento.
+
+## 💻 Tecnologias e Dependências
+
+Em andamento.
+
 ## ✅ Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
 #### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
@@ -44,3 +60,11 @@ Este projeto tem como objetivo implementar progressivamente e de forma didática
 - [ ] ID 22 - Realiza requisições assíncronas para uma API fake (ex.: JSON Server) para persistir dados de um formulário.
 - [ ] ID 23 - Realiza requisições assíncronas para uma API fake para exibir dados na página.
 - [ ] ID 24 - Realiza requisições assíncronas para APIs públicas reais (OpenWeather, ViaCEP etc.), exibindo os dados e tratando erros.
+
+## 🚀 Manual de execução
+
+Em andamento.
+
+## 📱 Telas da aplicação
+
+Em andamento.
