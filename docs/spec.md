@@ -110,13 +110,3 @@ Esta é a representação em formato JSON do banco de dados simulado.
 ```
 
 ---
-
-## 5. Considerações Técnicas
-
-- O carrinho de compras será armazenado utilizando localStorage.
-- A API fake será implementada com JSON Server.
-- O sistema consumirá uma API pública para preenchimento automático de endereço (CEP).
-- O projeto não terá autenticação de usuários.
-- As imagens serão otimizadas utilizando formatos modernos como WebP.
-
----
