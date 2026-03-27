@@ -13,7 +13,8 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ## 🎨 Design
 
-Em andamento.
+- [🎨 Design System](./docs/design-system.md) - Identidade visual
+- [🖼️ Protótipo no Figma] - Em andamento.
 
 ## 🌐 Site em Produção - GitHub Pages
 
