@@ -6,7 +6,10 @@ Este projeto tem como objetivo implementar progressivamente e de forma didática
 
 ## 📚 Documentação do Projeto
 
-Em andamento.
+Para entender as regras de negócio, o escopo e a arquitetura técnica da aplicação, consulte os documentos abaixo:
+
+- [📄 Product Requirements Document (PRD)](./docs/prd.md) - Visão geral, atores e histórias de usuário.
+- [🛠️ Especificação Técnica (Tech Spec)](./docs/spec.md) - Diagrama de banco de dados (DER), dicionário de dados e rotas da API (JSON Server).
 
 ## 🎨 Design
 
