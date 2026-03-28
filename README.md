@@ -14,7 +14,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 ## 🎨 Design
 
 - [🎨 Design System](./docs/design-system.md) - Identidade visual
-- [🖼️ Protótipo no Figma] - Em andamento.
+- [🖼️ Protótipo no Figma](https://www.figma.com/design/LRpHhseStbvGolbRldPhsD/mr-snkrs?node-id=3542-19&t=AfWZo4Ww6aouxmtm-1) - Telas interativas da aplicação.
 
 ## 🌐 Site em Produção - GitHub Pages
 
