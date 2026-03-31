@@ -94,19 +94,42 @@ Esta é a representação em formato JSON do banco de dados simulado.
 
 ```json
 {
-  "produtos": [
-    {
-      "id": "1",
-      "nome": "Nike Air Force 1",
-      "descricao": "Tênis clássico com design atemporal",
-      "preco": 599.9,
-      "imagem": "assets/images/airforce1.webp",
-      "categoria": "casual"
-    }
-  ],
-  "pedidos": [],
-  "itensPedido": []
+	"produtos": [
+		{
+			"id": "1",
+			"nome": "Nike Air Force 1",
+			"descricao": "Tênis clássico com design atemporal",
+			"preco": 599.9,
+			"imagem": "assets/images/airforce1.webp",
+			"categoria": "casual"
+		}
+	],
+	"pedidos": [],
+	"itensPedido": []
 }
 ```
 
 ---
+
+## 5. Tecnologias e Versões
+
+As seguintes tecnologias e ferramentas serão utilizadas no desenvolvimento do sistema:
+
+- HTML5
+- CSS3
+- jQuery v4.0.0
+- Bootstrap v5.3
+- JSON Server v0.17.x (API Fake)
+- ViaCEP API v1 (API Pública)
+- Node.js v24.14 (ambiente de execução)
+- NPM v11.9 (gerenciador de pacotes)
+
+---
+
+## 6. Integração com APIs
+
+- A aplicação consumirá uma API fake (JSON Server) para operações de leitura e escrita de dados, como listagem de produtos e registro de pedidos.
+
+- A API pública ViaCEP será utilizada para preenchimento automático de endereço no formulário de checkout, através de requisições HTTP do tipo GET.
+
+- As requisições assíncronas serão realizadas utilizando a API Fetch do JavaScript, com tratamento de erros para garantir robustez na aplicação.
