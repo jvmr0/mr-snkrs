@@ -118,7 +118,7 @@ As seguintes tecnologias e ferramentas serão utilizadas no desenvolvimento do s
 - HTML5
 - CSS3
 - jQuery v4.0.0
-- Bootstrap v5.3
+- Bootstrap v5.3.8
 - JSON Server v0.17.x (API Fake)
 - ViaCEP API v1 (API Pública)
 - Node.js v24.14 (ambiente de execução)
