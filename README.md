@@ -27,7 +27,7 @@ Em andamento.
   - Bootstrap - Ampla adoção no mercado, excelente documentação e grande variedade de componentes prontos.
 - JavaScript:
   - JQuery - Para realizar animações e manipulação do DOM.
-  - JSon Server - Para simular uma API REST.
+  - JSON Server - Para simular uma API REST.
   - ViaCEP API - Preenchimento automático de endereço.
 
 ## ✅ Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
