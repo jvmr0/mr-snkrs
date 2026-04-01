@@ -1,6 +1,33 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.3.8",
-    "bootstrap-icons": "^1.13.1"
-  }
+	"name": "mr-snkrs",
+	"version": "1.0.0",
+	"description": "Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web de e-commerce focada na venda de sneakers, simulando funcionalidades comuns de lojas virtuais (ex: listagem de produtos, carrinho de compras, checkout, cadastro de dados e integração com APIs). Como diferencial, a aplicação busca oferecer uma interface moderna e responsiva, com foco em experiência do usuário e interatividade no lado cliente.",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jvmr0/mr-snkrs.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/jvmr0/mr-snkrs/issues"
+	},
+	"homepage": "https://github.com/jvmr0/mr-snkrs#readme",
+	"dependencies": {
+		"bootstrap": "^5.3.8",
+		"bootstrap-icons": "^1.13.1",
+		"jquery": "^4.0.0",
+		"uuid": "^13.0.0"
+	},
+	"devDependencies": {
+		"gh-pages": "^6.3.0"
+	}
 }
