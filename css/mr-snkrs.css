@@ -1,8 +1,62 @@
-body {
-	background-color: grey;
+header {
+	background-color: #121212;
+}
+
+.space-grotesk {
+	font-family: 'Space Grotesk', sans-serif;
+	font-optical-sizing: auto;
+	/* font-weight: 300 - 700; */
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MonumentExtended-Bolder';
+	src: url('../fonts/Monument-Extended-Font-Family/MonumentExtended-Ultrabold.otf')
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'MonumentExtended-Regular';
+	src: url('../fonts/Monument-Extended-Font-Family/MonumentExtended-Regular.otf') format('opentype');
 }
 
 .logo {
-	max-width: 80px;
+	max-width: 8rem;
 	height: auto;
+	margin-right: -1rem;
+}
+
+#topo {
+	outline-style: solid;
+	outline-width: 0.1rem;
+	outline-color: #ff2a4d;
+}
+
+#icone-menu {
+	color: #f5f5f5;
+}
+
+#icone-carrinho {
+	color: #f5f5f5;
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 0.7px;
+}
+
+#snkrs {
+	color: #ff2a4d;
+	font-family: 'MonumentExtended-Bolder';
+	font-size: 0.9rem;
+}
+
+#marcas {
+	color: #f5f5f5;
+	outline-style: solid;
+	outline-width: 0.1rem;
+	outline-color: #ff2a4d;
+}
+
+.texto-marcas {
+	margin-right: 2rem;
+	opacity: 50%;
 }
