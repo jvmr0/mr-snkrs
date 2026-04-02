@@ -1,5 +1,15 @@
+:root {
+	--vermelho-primario: #ff2a4d;
+	--fundo-preto: #050505;
+	--texto-offwhite: #f5f5f5;
+	--destaque-verde: #d4ff00;
+	--vazio-cinza: #262626;
+	--texto-cinza: #667667;
+	--fundo-secundario: #121212;
+}
+
 header {
-	background-color: #121212;
+	background-color: var(--fundo-secundario);
 }
 
 .space-grotesk {
@@ -29,34 +39,87 @@ header {
 #topo {
 	outline-style: solid;
 	outline-width: 0.1rem;
-	outline-color: #ff2a4d;
+	outline-color: var(--vermelho-primario);
 }
 
 #icone-menu {
-	color: #f5f5f5;
+	color: var(--texto-offwhite);
 }
 
 #icone-carrinho {
-	color: #f5f5f5;
+	color: var(--texto-offwhite);
 	font-weight: 500;
 	font-size: 12px;
 	letter-spacing: 0.7px;
 }
 
 #snkrs {
-	color: #ff2a4d;
+	color: var(--vermelho-primario);
 	font-family: 'MonumentExtended-Bolder';
 	font-size: 0.9rem;
 }
 
 #marcas {
-	color: #f5f5f5;
+	color: var(--texto-offwhite);
 	outline-style: solid;
 	outline-width: 0.1rem;
-	outline-color: #ff2a4d;
+	outline-color: var(--vermelho-primario);
 }
 
 .texto-marcas {
 	margin-right: 2rem;
 	opacity: 50%;
+}
+
+#hero-section {
+	font-family: 'Space Grotesk';
+	font-weight: 700;
+	font-size: 2.5rem;
+	letter-spacing: -0.125rem;
+	line-height: 75%;
+}
+
+#hero-1 {
+	color: var(--texto-offwhite);
+}
+
+#hero-2 {
+	color: var(--vermelho-primario);
+	font-style: italic;
+}
+
+#hero-line {
+	background-color: var(--destaque-verde);
+	width: 6.25rem;
+	height: 0.625rem;
+}
+
+.img-wrapper {
+	position: relative;
+}
+
+.img-wrapper img {
+	width: 100%;
+	transition: 0.3s ease;
+}
+
+.img-hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+/* DESKTOP (com hover) */
+@media (min-width: 768px) {
+	.img-wrapper:hover .img-hover {
+		opacity: 1;
+	}
+}
+
+/* MOBILE (sem hover)*/
+@media (max-width: 767px) {
+	.img-hover {
+		opacity: 1;
+	}
 }
