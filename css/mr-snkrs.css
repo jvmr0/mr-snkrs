@@ -36,10 +36,12 @@ body {
 	margin-right: -1rem;
 }
 
-#topo {
-	outline-style: solid;
-	outline-width: 0.1rem;
-	outline-color: var(--vermelho-primario);
+@media (max-width: 768px) {
+	#topo {
+		outline-style: solid;
+		outline-width: 0.1rem;
+		outline-color: var(--vermelho-primario);
+	}
 }
 
 #icone-menu {
@@ -114,6 +116,7 @@ body {
 @media (min-width: 768px) {
 	.img-wrapper:hover .img-hover {
 		opacity: 1;
+		transition: 0.5s ease;
 	}
 }
 
@@ -140,6 +143,9 @@ body {
 	background-color: var(--vazio-cinza);
 	border-radius: 1rem;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 /* DESKTOP COM HOVER */
@@ -147,7 +153,7 @@ body {
 	.card-produto:hover {
 		box-shadow:
 			0 15px 30px rgba(0, 0, 0, 0.4),
-			0 0 10px var(--vermelho-primario);
+			0 0 10px var(--texto-cinza);
 		transition: 0.3s ease;
 		transform: scale(1.02);
 	}
@@ -156,6 +162,9 @@ body {
 .infos {
 	color: var(--texto-offwhite);
 	font-family: 'MonumentExtended-Regular';
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 }
 
 .marca {
@@ -173,4 +182,14 @@ body {
 .preco {
 	padding-top: 3rem;
 	font-size: 1rem;
+	margin-top: auto;
+}
+
+.hype {
+	background-color: var(--destaque-verde);
+	padding: 0.25rem 1rem;
+	color: var(--fundo-preto);
+	font-family: 'Space Grotesk';
+	font-size: 0.65rem;
+	font-weight: 700;
 }
