@@ -140,6 +140,15 @@ body {
 		font-weight: 700;
 		cursor: pointer;
 	}
+
+	.icones:hover {
+		color: var(--vermelho-primario);
+		cursor: pointer;
+	}
+
+	.card-produto {
+		cursor: pointer;
+	}
 }
 
 /* MOBILE (sem hover)*/
@@ -269,6 +278,10 @@ footer {
 	color: var(--texto-cinza);
 	max-width: 20rem;
 	margin: 0 auto;
+}
+
+.teste {
+	background-color: #d4ff00;
 }
 
 .footer-list {
