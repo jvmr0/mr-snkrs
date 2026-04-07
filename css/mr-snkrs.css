@@ -127,6 +127,19 @@ body {
 		opacity: 1;
 		transition: 0.5s ease;
 	}
+	.card-produto:hover {
+		box-shadow:
+			0 15px 30px rgba(0, 0, 0, 0.4),
+			0 0 10px var(--texto-cinza);
+		transition: 0.3s ease;
+		transform: scale(1.02);
+	}
+	.texto-marcas:hover {
+		color: var(--vermelho-primario);
+		opacity: 100%;
+		font-weight: 700;
+		cursor: pointer;
+	}
 }
 
 /* MOBILE (sem hover)*/
@@ -155,17 +168,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-}
-
-/* DESKTOP COM HOVER */
-@media (min-width: 768px) {
-	.card-produto:hover {
-		box-shadow:
-			0 15px 30px rgba(0, 0, 0, 0.4),
-			0 0 10px var(--texto-cinza);
-		transition: 0.3s ease;
-		transform: scale(1.02);
-	}
 }
 
 .infos {
